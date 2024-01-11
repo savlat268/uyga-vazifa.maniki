@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+.wrapper {
+    width: 1140px;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.wrapper .wrapper__item{
+    border:  1px solid blue;
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.wrapper .wrapper__item:nth-child(1){
+    background-image: url(./Rectangle\ 6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.wrapper .wrapper__item:nth-child(1) > .top__btn {
+    padding: 5px 15px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 41px;
+    font-size: 14px;
+}
+
+.wrapper .wrapper__item:nth-child(1) h1 {
+    font-size: 36px;
+    margin: 50px 0 30px;
+    line-height: 46px;
+}
+
+.wrapper .wrapper__item:nth-child(1) p {
+    line-height: 26px;
+}
+
+.wrapper .wrapper__item:nth-child(1) .bottom__btn {
+    width: 100%;
+    padding: 20px;
+    font-size: 19px;
+    background-color: #4DC490;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius:  0px 0px 20px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+
+input{
+    border: none;
+    border-bottom:1px solid black ;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    outline: none;
+}
+
+input:focus{
+    border-bottom: 2px solid red;
+}
+.bottom__ii{
+    
+    padding: 5px 10px;
+    background: blue;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 41px;
+    font-size: 14px;
+   
+}
